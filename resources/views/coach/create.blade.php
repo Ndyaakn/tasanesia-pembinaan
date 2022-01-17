@@ -15,77 +15,77 @@
     <div class="card">
         <div class="card-body">
             <div class="row m-3">
-                <label for="" class="col-sm-2 col-form-label">Name / Nama</label>
+                <label for="" class="col-sm-2 col-form-label">Name</label>
                 <div class="col-sm">
                     <input type="text" name="name" class="form-control">
                 </div>
             </div>
 
             <div class="row m-3">
-                <label for="" class="col-sm-2 col-form-label">Degree / Gelar</label>
+                <label for="" class="col-sm-2 col-form-label">Pendidikan Terakhir</label>
                 <div class="col-sm">
                     <input type="text" name="degree" class="form-control">
                 </div>
             </div>
 
             <div class="row m-3">
-                <label for="" class="col-sm-2 col-form-label">School / Instansi</label>
+                <label for="" class="col-sm-2 col-form-label">Sekolah</label>
                 <div class="col-sm">
                     <input type="text" name="school" class="form-control">
                 </div>
             </div>
 
             <div class="row m-3">
-                <label for="" class="col-sm-2 col-form-label">Faculty / Fakultas</label>
+                <label for="" class="col-sm-2 col-form-label">Fakultas</label>
                 <div class="col-sm">
                     <input type="text" name="faculty" class="form-control">
                 </div>
             </div>
 
             <div class="row m-3">
-                <label for="" class="col-sm-2 col-form-label">Major / Jurusan</label>
+                <label for="" class="col-sm-2 col-form-label">Jurusan</label>
                 <div class="col-sm">
                     <input type="text" name="major" class="form-control">
                 </div>
             </div>
 
             <div class="row m-3">
-                <label for="" class="col-sm-2 col-form-label">Organization / Organisasi</label>
+                <label for="" class="col-sm-2 col-form-label">Organisasi</label>
                 <div class="col-sm">
                     <input type="text" name="organization" class="form-control">
                 </div>
             </div>
 
             <div class="row m-3">
-                <label for="" class="col-sm-2 col-form-label">Position</label>
+                <label for="" class="col-sm-2 col-form-label">Posisi Dalam Organisasi</label>
                 <div class="col-sm">
                     <input type="text" name="position_in_org" class="form-control">
                 </div>
             </div>
 
             <div class="row m-3">
-                <label for="" class="col-sm-2 col-form-label">project_name</label>
+                <label for="" class="col-sm-2 col-form-label">Nama Projek (yang pernah diikuti)</label>
                 <div class="col-sm">
                     <input type="text" name="project_name" class="form-control">
                 </div>
             </div>
 
             <div class="row m-3">
-                <label for="" class="col-sm-2 col-form-label">position_in_project</label>
+                <label for="" class="col-sm-2 col-form-label">Posisi (projek yang pernah diikuti)</label>
                 <div class="col-sm">
                     <input type="text" name="position_in_project" class="form-control">
                 </div>
             </div>
 
             <div class="row m-3">
-                <label for="" class="col-sm-2 col-form-label">skill</label>
+                <label for="" class="col-sm-2 col-form-label">Skill</label>
                 <div class="col-sm">
                     <input type="text" name="skill" class="form-control">
                 </div>
             </div>
 
             <div class="row m-3">
-                <label for="" class="col-sm-2 col-form-label">notes</label>
+                <label for="" class="col-sm-2 col-form-label">Keterangan</label>
                 <div class="col-sm">
                     <input type="text" name="notes" class="form-control">
                 </div>

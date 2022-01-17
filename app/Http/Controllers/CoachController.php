@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Coach;
 use App\Http\Requests\StoreCoachRequest;
 use App\Http\Requests\UpdateCoachRequest;
+use Illuminate\Http\Request;
 
 class CoachController extends Controller
 {
@@ -15,6 +16,8 @@ class CoachController extends Controller
      */
     public function index()
     {
+
+
         $data_coach = Coach::all();
         return view('coach.index', compact('data_coach'));
     }
@@ -73,9 +76,10 @@ class CoachController extends Controller
      * @param  \App\Models\Coach  $coach
      * @return \Illuminate\Http\Response
      */
-    public function edit(Coach $coach)
+    public function edit($id)
     {
-        //
+        $coach = \App\Models\Coach::find($id);
+        return view('coach.edit', ['coach' =>$coach]);
     }
 
     /**
@@ -85,10 +89,14 @@ class CoachController extends Controller
      * @param  \App\Models\Coach  $coach
      * @return \Illuminate\Http\Response
      */
-    public function update(UpdateCoachRequest $request, Coach $coach)
+    public function update(Request $request, $id)
     {
-        //
+        $coach = \App\Models\Coach::find($id);
+        $coach->Update($request->all());
+        return redirect('/coach')->with('sukses','Data berhasil diupdate');
+        
     }
+    
 
     /**
      * Remove the specified resource from storage.
